@@ -278,7 +278,7 @@
 		document.getElementById("hours").innerHTML = hours + " <small>hours</small> ";
 		document.getElementById("minutes").innerHTML = minutes + " <small>minutes</small> ";
 		document.getElementById("seconds").innerHTML = seconds + " <small>seconds</small> ";
-
+	});
 
 	var bgVideo = function() {
 		$('.player').mb_YTPlayer();
