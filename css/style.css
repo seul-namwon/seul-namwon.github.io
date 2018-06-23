@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -36,10 +38,11 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 1.5em;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #ffffff;
   font-family: "ArnoPro Display", cursive;
   font-weight: 400;
 }
@@ -249,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
   fill: #6f584a;
 }
 .section-heading h2 {
-  font-size: 80px;
+  font-size: 60px;
   color: #6f584a;
   display: block;
   padding-bottom: 20px;
@@ -424,6 +427,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 80px;
   margin-bottom: 20px;
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: 100 !important;
 }
 .qbootstrap-cover .display-tc h2 strong,
@@ -670,6 +674,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #qbootstrap-countdown .section-heading .datewed {
+  font-family: 'Nanum Myeongjo', serif;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.7);
 }
