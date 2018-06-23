@@ -12,9 +12,9 @@
 *
 * ======================================================= */
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "ArnoPro Display", Arial, sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.8;
   color: #777777;
   color: #7f7f7f;
@@ -40,7 +40,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Clicker Script", cursive;
+  font-family: "ArnoPro Display", cursive;
   font-weight: 400;
 }
 
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 #qbootstrap-header #navbar li a {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "ArnoPro Display", Arial, sans-serif;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
 }
@@ -160,10 +160,10 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-header .navbar-brand {
   float: left;
   display: block;
-  font-size: 34px;
+  font-size: 18px;
   padding-left: 0;
   color: #fff;
-  font-family: "Clicker Script", cursive;
+  font-family: "ArnoPro Display", cursive;
 }
 #qbootstrap-header.navbar-fixed-top {
   position: fixed !important;
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
 .qbootstrap-cover .display-tc .holder,
 .video-hero .display-tc .holder {
   color: #fff;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "ArnoPro Display", Arial, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 80px;
   margin-bottom: 20px;
-  font-weight: 300 !important;
+  font-weight: 100 !important;
 }
 .qbootstrap-cover .display-tc h2 strong,
 .video-hero .display-tc h2 strong {
@@ -441,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-weight: 400;
   font-size: 20px;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
 }
 .qbootstrap-cover .display-tc .svg-sm .svg,
 .video-hero .display-tc .svg-sm .svg {
@@ -530,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder {
   color: #fff;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "ArnoPro Display", Arial, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -575,7 +575,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 40px;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "ArnoPro Display", Arial, sans-serif;
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(255, 255, 255, 0.5);
@@ -704,7 +704,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-countdown .countdown small {
   display: block;
   font-size: 14px;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "ArnoPro Display", Arial, sans-serif;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
@@ -1190,7 +1190,7 @@ h1, h2, h3, h4, h5, h6 {
 .wedding-events .desc .icon i {
   color: #fff;
   padding: 15px;
-  background: #FF847C;
+  /*background: #FF847C;*/
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
