@@ -231,8 +231,8 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  #padding-bottom: 50px;
+  #margin-bottom: 50px;
   clear: both;
 }
 .section-heading.svg-sm-2 .svg {
@@ -670,7 +670,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #qbootstrap-countdown .section-heading .datewed {
-  font-size: 24px;
+  font-size: 20px;
   color: rgba(255, 255, 255, 0.7);
 }
 #qbootstrap-countdown .section-heading.svg-sm .svg {
@@ -693,19 +693,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-countdown .countdown {
   margin-bottom: 0;
-  font-size: 80px;
+  font-size: 30px;
   color: #fff;
 }
 #qbootstrap-countdown .countdown span {
-  margin: 0 30px;
+  margin: 0 20px;
   display: inline-block;
   font-family: "Clicker Script", cursive;
 }
 #qbootstrap-countdown .countdown small {
   display: block;
-  font-size: 14px;
+  font-size: 7px;
   font-family: "ArnoPro Display", Arial, sans-serif;
-  letter-spacing: 10px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 #qbootstrap-countdown .display-over {
