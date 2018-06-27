@@ -22,8 +22,8 @@
 	<meta name="author" content="chonamwon" />
 
 	<meta property="og:title" content="이슬❤️조남원의 결혼예식에 초대합니다."/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
+	<meta property="og:image" content="/images/final/img_main_03.jpeg"/>
+	<meta property="og:url" content="/"/>
 	<meta property="og:site_name" content=""/>
 	<meta property="og:description" content="2018.09.01 17:00 양재역 9번출구 엘블레스"/>
 	<meta name="twitter:title" content="2018.09.01 17:00 양재역 9번출구 엘블레스" />
@@ -35,20 +35,20 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<style type="text/css">
-		@charset "utf-8";
 
 		@font-face{
-  			font-family:'ArnoPro Display';
-  			src: url('./fonts/arno/ArnoPro-Display.eot?iefix');
-  			src: url('./fonts/arno/ArnoPro-Display.woff2') format('woff2'),
-  				url('./fonts/arno/ArnoPro-Display.woff') format('woff');
-  			font-style:normal;
-  			font-weight:normal;
+			font-family:'ArnoPro Display';
+			src: url('./fonts/arno/ArnoPro-Display.eot?iefix');
+			src: url('./fonts/arno/ArnoPro-Display.woff2') format('woff2'),
+			url('./fonts/arno/ArnoPro-Display.woff') format('woff');
+			font-style:normal;
+			font-weight:normal;
 		}
 
 	</style>
 
-		<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css">
+		<!--<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">-->
 <!--
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
@@ -76,6 +76,16 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=42016e0c7ebf5b3129074bb53c84fec2"></script>
+	<script>
+	  var container = document.getElementById('hall_map');
+	  var options = {
+		center: new daum.maps.LatLng(33.450701, 126.570667),
+		level: 3
+	  };
+
+	  var map = new daum.maps.Map(container, options);
+	</script>
 	</head>
 	<body>
 	<!--<header role="banner" id="qbootstrap-header">
@@ -210,7 +220,7 @@
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-6 text-center animate-box">
 					<div class="wedding-events">
-						<!--<div class="ceremony-bg" style="background-image: url(images/wed-ceremony.jpg);"></div>-->
+						<div class="ceremony-bg" id="hall_map" style="width:503px;height:400px;"></div>
 						<div class="desc">
 							<h3>Elbless Diamond Hall</h3>
 							<div class="row">

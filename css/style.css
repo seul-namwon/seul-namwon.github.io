@@ -38,7 +38,7 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 1.5em;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Iropke Batang', serif;;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -427,7 +427,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 80px;
   margin-bottom: 20px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Iropke Batang', serif;;
   font-weight: 100 !important;
 }
 .qbootstrap-cover .display-tc h2 strong,
@@ -437,7 +437,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .qbootstrap-cover .display-tc h2,
   .video-hero .display-tc h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 .qbootstrap-cover .display-tc p,
@@ -674,7 +674,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #qbootstrap-countdown .section-heading .datewed {
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Iropke Batang', serif;;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.7);
 }
