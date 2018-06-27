@@ -255,7 +255,7 @@
 		var countDownDate = new Date("Sep 01, 2018 17:00:00").getTime();
 
 		// Update the count down every 1 second
-	/*	var x = setInterval(function() {
+		var x = setInterval(function() {
 
 		// Get todays date and time
 		var now = new Date().getTime();
@@ -279,7 +279,7 @@
 		document.getElementById("minutes").innerHTML = minutes + " <small>minutes</small> ";
 		document.getElementById("seconds").innerHTML = seconds + " <small>seconds</small> ";
 	});
-*/
+
 	var bgVideo = function() {
 		$('.player').mb_YTPlayer();
 	};
