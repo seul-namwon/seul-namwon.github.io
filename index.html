@@ -78,7 +78,7 @@
 
 	<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=42016e0c7ebf5b3129074bb53c84fec2"></script>
 	<script>
-	  var container = document.getElementById('hall_map');
+	  var container = document.getElementById('map');
 	  var options = {
 		center: new daum.maps.LatLng(33.450701, 126.570667),
 		level: 3
@@ -220,7 +220,9 @@
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-6 text-center animate-box">
 					<div class="wedding-events">
-						<div class="ceremony-bg" id="hall_map" style="width:503px;height:400px;"></div>
+						<div class="ceremony-bg">
+							<div id="map" style="width:500px;height:400px;"></div>
+						</div>
 						<div class="desc">
 							<h3>Elbless Diamond Hall</h3>
 							<div class="row">
@@ -253,11 +255,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<!--<div class="row">
 				<div class="col-md-12">
 					<div id="map" class="qbootstrap-map"></div>
 				</div>
-			</div>
+			</div>-->
 		</div>
 		</div>
 	</div>
