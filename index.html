@@ -76,16 +76,6 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=42016e0c7ebf5b3129074bb53c84fec2"></script>
-	<script>
-	  var container = document.getElementById('map');
-	  var options = {
-		center: new daum.maps.LatLng(33.450701, 126.570667),
-		level: 3
-	  };
-
-	  var map = new daum.maps.Map(container, options);
-	</script>
 	</head>
 	<body>
 	<!--<header role="banner" id="qbootstrap-header">
@@ -381,6 +371,15 @@
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js?v=20190604"></script>
+	<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=42016e0c7ebf5b3129074bb53c84fec2"></script>
+	<script>
+      var container = document.getElementById('map');
+      var options = {
+        center: new daum.maps.LatLng(33.450701, 126.570667),
+        level: 3
+      };
 
+      var map = new daum.maps.Map(container, options);
+	</script>
 	</body>
 </html>
