@@ -415,7 +415,7 @@
 
       var map = new daum.maps.Map(container, options);
 
-      map.setDraggable(false);
+      //map.setDraggable(false);
 
       var positions = [
         {
@@ -443,7 +443,7 @@
 
         var infowindow = new daum.maps.InfoWindow({
           position: iwPosition, // 마커를 표시할 위치
-          title : iwContent, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
+          content : iwContent, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
         });
 
         infowindow.open(map, marker);
