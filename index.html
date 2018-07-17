@@ -419,12 +419,14 @@
 
       var positions = [
         {
-          title: '엘블레스',
-          latlng: new daum.maps.LatLng(37.4827664558, 127.034950232)
+          title: '엘블레스 웨딩홀',
+          latlng: new daum.maps.LatLng(37.4827664558, 127.034950232),
+		  link: "http://place.map.daum.net/607282159"
         },
         {
-          title: '전용주차장',
-          latlng: new daum.maps.LatLng(37.4834910628, 127.034281227)
+          title: '양재역 전용주차장',
+          latlng: new daum.maps.LatLng(37.4834910628, 127.034281227),
+		  link: "http://place.map.daum.net/21361111"
         }
       ];
 
@@ -437,7 +439,7 @@
 
         marker.setMap(map);
 
-        var iwContent = '<a style="margin:7px 22px 0 12px;font:14px/2 sans-serif;color:#CC6600" href="http://place.map.daum.net/607282159"><strong>엘블레스 웨딩홀</strong></a>',
+        var iwContent = '<a style="margin:7px 22px 0 12px;font:14px/2 sans-serif;color:#CC6600" href="' + positions[i].link +'"><strong>' + positions[i].title  + '</strong></a>',
             iwPosition = positions[i].latlng
 
 
