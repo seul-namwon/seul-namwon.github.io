@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-gallery,
 #qbootstrap-testimonials,
 #qbootstrap-press {
-  /*padding: 7em 0;*/
+  padding: 7em 0;
 }
 @media screen and (max-width: 480px) {
   #qbootstrap-couple,
@@ -346,7 +346,6 @@ h1, h2, h3, h4, h5, h6 {
   .qbootstrap-cover,
   .video-hero {
     heifght: inherit;
-    padding: 3em 0;
   }
 }
 .qbootstrap-cover .display-t,
@@ -1140,7 +1139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   .wedding-events {
-    margin-bottom: 2em;
+    margin-bottom: 20px;
   }
 }
 .wedding-events .ceremony-bg {
@@ -1151,7 +1150,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 400px;
 }
 .wedding-events .desc {
-  padding: 2em;
+  padding: 40px;
   border: 1px solid rgba(0, 0, 0, 0.05);
   position: relative;
   z-index: 0;
