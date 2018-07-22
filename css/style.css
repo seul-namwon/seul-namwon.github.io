@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   .section-heading h2 {
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 .section-heading h3 {
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-gallery,
 #qbootstrap-testimonials,
 #qbootstrap-press {
-  padding: 7em 0;
+  /*padding: 7em 0;*/
 }
 @media screen and (max-width: 480px) {
   #qbootstrap-couple,
@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
   #qbootstrap-gallery,
   #qbootstrap-testimonials,
   #qbootstrap-press {
-    padding: 3em 0;
+    padding: 20px 0;
   }
 }
 
@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-family: "ArnoPro Display", Arial, sans-serif;
   font-size: 18px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 10px;
 }
 .qbootstrap-cover .display-tc .holder span,
@@ -437,7 +437,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .qbootstrap-cover .display-tc h2,
   .video-hero .display-tc h2 {
-    font-size: 50px;
+    font-size: 42px;
   }
 }
 .qbootstrap-cover .display-tc p,
@@ -536,7 +536,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-family: "ArnoPro Display", Arial, sans-serif;
   font-size: 18px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 10px;
   font-weight: 400;
 }
